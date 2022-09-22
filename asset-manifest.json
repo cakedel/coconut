@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/coconut/static/css/main.d22e44c3.css",
+    "main.js": "/coconut/static/js/main.766e030d.js",
+    "static/media/cover01.png": "/coconut/static/media/cover01.dceb63f170ce804f29a2.png",
+    "static/media/cover02.png": "/coconut/static/media/cover02.925176489824fcc36d94.png",
+    "static/media/event.jpg": "/coconut/static/media/event.0b5ddde227386083d6ab.jpg",
+    "index.html": "/coconut/index.html",
+    "main.d22e44c3.css.map": "/coconut/static/css/main.d22e44c3.css.map",
+    "main.766e030d.js.map": "/coconut/static/js/main.766e030d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d22e44c3.css",
+    "static/js/main.766e030d.js"
+  ]
+}
