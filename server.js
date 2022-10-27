@@ -7,7 +7,7 @@ const port = process.env.PORT || 4000;
 
 process.env.NODE_TLS_REJECT_UNAUTHORIZED = "0";
 
-app.use(express.static(path.join(__dirname, "../build")));
+app.use(express.static(path.join(__dirname, "./build")));
 
 // search 경로로 진입 시 axios로 서버에서 파일을 get
 app.get("/search", (req, res) => {
@@ -28,7 +28,7 @@ app.get("/search", (req, res) => {
 });
 
 app.get("/", function (req, res) {
-  res.sendFile(path.join(__dirname, "../build/index.html"));
+  res.sendFile(path.join(__dirname, "./build/index.html"));
 });
 
 app.listen(port, () => {
