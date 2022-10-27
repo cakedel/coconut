@@ -1,4 +1,4 @@
-import "./App.css";
+import "./App.scss";
 import Header from "./component/Header";
 import Content from "./component/Content";
 import Player from "./component/Player";

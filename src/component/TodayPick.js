@@ -6,11 +6,11 @@ const TodayPick = () => {
                 <div className="cover">
                     <figure className="billeCover"></figure>
                     <figure className="desc">
-                        <h3>NEXTREND : <br />
-                            {`Billlie(빌리)`}</h3>
+                        <h3>NEXTEND : <br />
+                            {`Billie(빌리)`}</h3>
                         <p> 장르의 한계를 뛰어넘는 중독성과 함께 더 확장된<br />
                             세계관으로  돌아온 독보적 스토리텔링 아이돌,<br />
-                            {`Billlie(빌리) 입니다.`}</p>
+                            {`Billie(빌리) 입니다.`}</p>
                         <a href=""><i className="xi-play"></i>Play now</a>
                     </figure>
                     <figure className="desc">

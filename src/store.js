@@ -52,7 +52,6 @@ const listSearch = createSlice({
       // 새로운 검색어를 불러올 때 searchSong의 비동기적 처리가 완료되기 전 state 배열을 비워준다.
     },
     [searchSong.fulfilled]: (state, action) => {
-      console.log("listSearch reducer", action.payload);
       state.push(action.payload);
       // searchSong의 비동기적 처리가 완료되면 action.payload된 결과를 배열에 집어넣어준다.
     },

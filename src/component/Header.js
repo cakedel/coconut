@@ -3,7 +3,7 @@ import { useDispatch, useSelector } from "react-redux";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import store, { SetInput, searchSong } from "../store";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 const CHARTLIST = [
   { id: 1, tit: "After LIKE", singer: "IVE(아이브)" },
@@ -37,31 +37,31 @@ const Header = () => {
         {/* 상단 메뉴바 */}
         <nav className="Gnb">
           <ul className="menu">
-            <a href="">
+            <Link to="/">
               <li>코코넛 티켓</li>
-            </a>
-            <a href="">
+            </Link>
+            <Link to="/">
               <li>이용권 구매</li>
-            </a>
-            <a href="">
+            </Link>
+            <Link to="/">
               <li>
                 <i className="xi-user"></i> 로그인
               </li>
-            </a>
+            </Link>
           </ul>
           <h1>
-            <a href="">COCONUT</a>
+            <Link to="/">COCONUT</Link>
           </h1>
           <ul className="menu second">
-            <a href="/">
+            <Link to="/">
               <li>코코넛 라운지</li>
-            </a>
-            <a href="/">
+            </Link>
+            <Link to="/">
               <li>이벤트</li>
-            </a>
-            <a href="/">
+            </Link>
+            <Link to="/">
               <li>공지사항</li>
-            </a>
+            </Link>
           </ul>
         </nav>
       </div>

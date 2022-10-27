@@ -267,8 +267,6 @@ h2 {
 }
 
 .Market .download {
-  display: flex;
-  flex-direction: column;
   flex: 1;
   justify-content: center;
 }
@@ -276,7 +274,7 @@ h2 {
 .Market .download strong {
   text-align: center;
   display: block;
-  margin: auto 0;
+  margin-bottom: 70px;
   font-size: 35px;
   font-weight: 300;
 }
