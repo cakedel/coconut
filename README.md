@@ -2,7 +2,7 @@
 
 ## 코코넛 뮤직 포트폴리오 사이트
 
-## Demo : https://coconut-music.herokuapp.com/
+## Demo : https://coconut-music-cakedel.koyeb.app/
 
 ---
 
@@ -58,3 +58,12 @@ ___
 <ol>
 <li>CSS에서 SASS로 스타일링 변환.</li>
 </ol>
+
+### ver 1.0.2 release in 2023-01-22
+
+### 배포 웹페이지 주소 변경
+
+<ul>
+<li>heroku 유료화로 인해 배포사이트를 koyeb으로 변경 </li>
+<li><a href="https://coconut-music-cakedel.koyeb.app/" target="_blank">https://coconut-music-cakedel.koyeb.app/</a></li>
+</ul>
